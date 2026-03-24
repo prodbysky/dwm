@@ -9,13 +9,13 @@ static const char *fonts[]          = { "Iosevka Nerd Font Mono:size=10" };
 static const char dmenufont[]       = "Iosevka Nerd Font Mono:size=10";
 static const char col_gray1[]       = "#181818";
 static const char col_gray2[]       = "#282828";
-static const char col_gray3[]       = "#453d41";
-static const char col_gray4[]       = "#52494e";
+static const char col_gray3[]       = "#e4e4ef";
+static const char col_gray4[]       = "#f4f4ff";
 static const char col_cyan[]        = "#ffdd33";
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
 	[SchemeNorm] = { col_gray3, col_gray1, col_gray2 },
-	[SchemeSel]  = { col_gray4, col_cyan,  col_cyan  },
+	[SchemeSel]  = { col_gray2, col_cyan,  col_cyan  },
 };
 
 /* tagging */
